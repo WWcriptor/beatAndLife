@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'NeoDunggeunmo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.3/NeoDunggeunmo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'NeoDunggeunmo';
+    overflow-x: hidden;
+}
+
+#contentsBox{
+    height: 56.25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    position: sticky;
+    top: 0px;
+}
+
+.contents{
+    width: 100vw;
+    height: 56.25vw;
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+}
+
+#title img{
+    scale: 60%;
+}
+
+.imgBox{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.imgBox img{
+    width: 100vw;
+}
+.animal img{
+    width: 100%;
+}
+
+.animal{
+    height: 100vh;
+    position: absolute;
+    overflow: hidden;
+}
+
+.back{
+    width: 50rem;
+}
+
+.picture{
+    width: 15rem;
+    position: absolute;
+    top: 3.2rem;
+    left: 3rem;
+}
+
+.info{
+    position: absolute;
+    opacity: 0;
+}
+
+
+.info p{
+    position: absolute;
+    top: 3.2rem;
+    left: 20rem;
+}
+
+.name{
+    font-size: 3rem;
+}
+
+.detail{
+    margin-top: 5.2rem;
+    font-size: 1.8rem;
+    line-height: 150%;
+}
+
+.beat{
+    text-align: end;
+    font-size: 1.8rem;
+    margin-top: 20rem;
+    margin-left: 8rem;
+}
+
+.du{
+    width: 10rem;
+    position: absolute;
+    bottom: 4rem;
+    left: 36rem;
+}
+
+#cityToJungle{
+    z-index: 1;
+}
+
+#city5{
+    z-index: 3;
+}
+
+#city4{
+    z-index: 2;
+}
+
+#city3{
+    z-index: 4;
+}
+
+#city2{
+    z-index: 6;
+}
+
+#city1{
+    z-index: 5;
+}
+
+#jungle1{
+    z-index: 7;
+}
+
+#jungle2{
+    z-index: 10;
+}
+
+#jungle3{
+    z-index: 9;
+}
+
+#jungle4{
+    z-index: 11;
+}
+
+#jungle5{
+    z-index: 8;
+}
+
+#jungle6{
+    z-index: 12;
+}
+
+#jungle7{
+    z-index: 13;
+}
+
+#jungle8{
+    z-index: 14;
+}
+
+#jungleToSea{
+    z-index: 15;
+}
+
+#sea5{
+    z-index: 22;
+}
+
+#sea4{
+    z-index: 17;
+}
+
+#sea3{
+    z-index: 18;
+}
+
+#sea2{
+    z-index: 19;
+}
+
+#sea1{
+    z-index: 20;
+}
+
+#logo{
+    z-index: 21;
+}
+
+#none{
+    display: none;
+}

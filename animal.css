@@ -1,0 +1,170 @@
+@keyframes duAni{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.3);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+#ratBeat{
+    animation: duAni 0.13s infinite;
+}
+
+#catBeat{
+    animation: duAni 0.46s infinite;
+}
+
+#pigeonBeat{
+    animation: duAni 0.32s infinite;
+}
+
+#ddatgeeBeat{
+    animation: duAni 0.06s infinite;
+}
+
+#elephantBeat{
+    animation: duAni 2s infinite;
+}
+
+#bearBeat{
+    animation: duAni 1.09s infinite;
+}
+
+#pigBeat{
+    animation: duAni 0.63s infinite;
+}
+
+#turtleBeat{
+    animation: duAni 6s infinite;
+}
+
+#dolphinBeat{
+    animation: duAni 1.5s infinite;
+}
+
+#whaleBeat{
+    animation: duAni 5s infinite;
+}
+
+#rat{
+    margin-top: 46vw;
+}
+#rat .animal{
+    width: 3.125vw;
+}
+#ratInfo{
+    left: 3.125vw;
+    top: -28.5rem;
+}
+
+#cat{
+    margin-top: 44vw;
+    margin-left: -50vw;
+}
+#cat .animal{
+   width: 5.61vw; 
+}
+#catInfo{
+    left: 5.61vw;
+    top: -28.5rem;
+}
+
+#pigeon{
+    margin-top: 44vw;
+}
+#pigeon .animal{
+    width: 5.73vw;
+}
+#pigeonInfo{
+   left: 5.73vw;
+   top: -28.5rem;
+}
+
+#ddatgee{
+    margin-top: 48vw;
+}
+#ddatgee .animal{
+    width: 2.08vw;
+}
+#ddatgeeInfo{
+    left: 2.08vw;
+   top: -28.5rem;
+}
+
+#elephant{
+    margin-top: 19vw;
+}
+#elephant .animal{
+    width: 49.48vw;
+}
+#elephantInfo{
+    left: 30vw;
+    top: -20rem;
+}
+
+#bear{
+    margin-top: 40vw;
+    margin-left: 40vw;
+}
+#bear .animal{
+    width: 26.04vw;
+}
+#bearInfo{
+    left: -5vw;
+    top:-30rem;
+}
+
+#pig{
+    margin-top: 46vw;
+}
+#pig .animal{
+    width: 15.625vw;
+}
+#pigInfo{
+    left: 15.625vw;
+    top: -28.5rem;
+}
+
+
+#turtle{
+    margin-top: 10vw;
+}
+#turtle .animal{
+    width: 15.625vw;
+}
+#turtleInfo{
+    top: 10vw;
+    left: 0;
+}
+
+
+#dolphin{
+    margin-left: 20vw;
+}
+#dolphin .animal{
+    width: 26.04vw;
+}
+
+#dolphinInfo{
+    top: 10vw;
+}
+
+#whale{
+    margin-top: 0;
+}
+#whale .animal{
+    width: 100vw;
+    height: 56.25vw;
+}
+#whaleInfo{
+    top: 0;
+    left: 0;
+}
+#whaleInfo .beat{
+    margin-left: 4rem;
+}
+
