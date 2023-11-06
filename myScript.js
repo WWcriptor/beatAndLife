@@ -292,8 +292,8 @@ function render(nowState)
             scrollAniElem[2].style.opacity=opacityVal;
             scrollAniElem[2].style.transform='translateY('+moveDownVal+"px)";
             scrollAniElem2[0].style.opacity=opacityVal;
-            scrollAniElem2[0].style.transform='translateY('+moveDownVal+"px)";
-            scrollAniElem2[1].style.transform='translateY('+moveDownVal+"px)";
+            scrollAniElem2[0].style.transform='translateX(60vw) translateY('+moveDownVal+"px)";
+            scrollAniElem2[1].style.transform='translateX(60vw) translateY('+moveDownVal+"px)";
             scrollAniElem[3].style.transform='translateX('+moveLeftVal+"px)";
             
         }break;
@@ -468,7 +468,7 @@ function render(nowState)
             scrollAniElem[0].style.opacity=opacityVal;
             scrollAniElem[1].style.opacity=opacityVal;
             
-            if(scrollAniElem[1].style.opacity>=0.9)
+            if(scrollAniElem[1].style.opacity>=0.8)
             {
                 scrollAniElem[0].style.display = 'block';
             }
